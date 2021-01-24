@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main3(void) {
+int main(void) {
     printf("The size of int is %lu bytes\n", sizeof(int));
     printf("The size of unsigned int is %lu bytes\n", sizeof(unsigned int));
     printf("The size of float is %lu bytes\n", sizeof(float));

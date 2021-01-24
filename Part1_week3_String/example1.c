@@ -9,7 +9,7 @@
 #include <string.h>
 #define SPEED 0.083
 
-int main_w3_1(void)
+int main(void)
 {
    float minutes, distance;
    int size;

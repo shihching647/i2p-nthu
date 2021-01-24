@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main_c1(void) {
+int main(void) {
     int integer1, decimal1, integer2, decimal2;
     scanf("%d.%d %d.%d", &integer1, &decimal1, &integer2, &decimal2);
     int ans = (integer1 * 100 + decimal1) * (integer2 * 100 + decimal2); //小數最多兩位->*100轉成整數

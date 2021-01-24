@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main3_1(void) {
+int main(void) {
     int i = 1;
     printf("number  squre\n");
     while(i <= 30) {

@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main1(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     float mon, tues, wend, thur, fri;
     float total;
     scanf("%f%f%f%f%f", &mon, &tues, &wend, &thur, &fri);

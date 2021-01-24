@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include <string.h>
-int main3_5(void)
+int main(void)
 {
    int i = 1, word_len;
    char word[40];

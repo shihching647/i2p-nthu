@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main2(void) {
+int main(void) {
     int ch;
     printf("Please enter a number in 0 ~ 127\n");
     scanf("%d", &ch);

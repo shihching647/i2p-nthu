@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main3_2(void) {
+int main(void) {
     double p = 10000;
     int year = 0;
     printf("year      intrest\n");

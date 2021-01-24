@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main3_3(void) {
+int main(void) {
     int x;
     char result[32]; //最大32位
     int i = 0;

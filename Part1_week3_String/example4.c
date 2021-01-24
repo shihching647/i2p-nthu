@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main_w3_4(void) {
+int main(void) {
     int x;
     printf("Please enter three integers:\n");
     scanf("%*d %*d %d", &x); //%*d -> 忽略被輸入的整數

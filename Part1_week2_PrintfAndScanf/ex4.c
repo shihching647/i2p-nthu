@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main4(void) {
+int main(void) {
     int allowance;
     printf("Please enter weekly allowance? $");
     scanf("%d", &allowance);

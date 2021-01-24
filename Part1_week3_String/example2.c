@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 #define ENGINE 1499.99
-int main_w3_2(void)
+int main(void)
 {
    printf("~%f~\n", ENGINE); //預設到小數點第6位
    printf("~%e~\n", ENGINE);

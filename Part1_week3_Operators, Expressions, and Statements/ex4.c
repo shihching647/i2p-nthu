@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main3_4(void) {
+int main(void) {
     char upper, lower;
     scanf("%c %c", &upper, &lower);
     if(upper >= 'A' && upper <= 'Z' && lower >= 'A' && lower <= 'Z') {
