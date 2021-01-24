@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main111ee(void)
+int main(void)
 {
     int l, r;
 
@@ -12,4 +12,5 @@ int main111ee(void)
     }
     if(2 * l <= r)
         printf("%d %d\n", l ,2 * l);
+    return 0;
 }
