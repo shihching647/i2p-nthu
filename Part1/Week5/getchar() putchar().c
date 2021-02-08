@@ -1,5 +1,5 @@
 /**
-*½m²ß¡G¦Û¤v¥Î getchar() putchar() ¼g¥X scanf %d ©M printf %d
+*ç·´ç¿’ï¼šè‡ªå·±ç”¨ getchar() putchar() å¯«å‡º scanf %d å’Œ printf %d
 **/
 #include <stdio.h>
 #include <string.h>
@@ -11,18 +11,18 @@ int main(void)
     char digits[20];
     int i = 0;
 
-    //Åª¨ú¼Æ¦rÂà´«¦¨int (¦¹®É x = 1234)
+    //è®€å–æ•¸å­—è½‰æ›æˆint (æ­¤æ™‚ x = 1234)
     while ((ch = getchar()) != EOF && isdigit(ch)) {
         x = x * 10 + (ch - '0');
     }
 
-    //±N¼Æ¦rÂà¦¨digits array, ¦¹®É digits = {4, 3, 2, 1}
+    //å°‡æ•¸å­—è½‰æˆdigits array, æ­¤æ™‚ digits = {4, 3, 2, 1}
     while (x > 0) {
         digits[i] = x % 10;
         x = x / 10;
         i++;
     }
-    //¦¹®É i = 4
+    //æ­¤æ™‚ i = 4
     i--;
     while (i >= 0) {
         putchar(digits[i] + '0');
